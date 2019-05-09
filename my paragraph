@@ -1,0 +1,11 @@
+There is global and block scope. 
+Any variable declared outside of a function is global scope and is accessible through out created code.
+A function that has it’s own scope is only accessible from that function. 
+Global variables are to be avoided as much as possible because new functions can be affected by them and 
+can cause errors by associating new functions with previous functions meant for a different purpose which 
+leads to indeterminate results. Strict mode sets javascript code to send an error message when let or const 
+have not been used to declare function, this avoids side effects of global variables. 
+A side effect is when a global variable is altered and doesn’t do its designated job anymore which 
+doesn’t make sense to the interpreter and throws an error. A pure function is determinate and has no side effects. 
+It works correctly and is unaltered.
+
